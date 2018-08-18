@@ -1,0 +1,530 @@
+<!DOCTYPE html>
+
+<html lang="en-us">
+
+<head>
+
+    <title>About Me</title>
+
+    <meta charset="utf-8" />
+
+    <meta name="author" content="Kevin W. Harty" />
+
+    <meta name="description" content="my portfolio." />
+
+    <meta name="classification" content="wireframe" />
+
+    <meta name="copyright" content="&copy; 2018 Kevin W. Harty" />
+
+    <link rel="stylesheet" type="text/css" href="style.css">
+
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO"
+        crossorigin="anonymous">
+
+
+
+
+
+
+
+
+    <style>
+        .row::after {
+
+            content: "";
+
+            /* clear: both;*/
+            display: block;
+
+        }
+
+        body {
+
+            background-color: #c1e3f7f3;
+            opacity: ;
+        }
+
+        html {
+
+            font-family: "Lucida Sans", sans-serif;
+
+            /* background-color: #4aaaa5; */
+            /*  background-image: url("./assets/familypic1.jpg") no-repeat center center fixed;
+
+            -webkit-background-size: cover;
+
+            -moz-background-size: cover;
+
+            -o-background-size: cover;
+
+            background-size: cover; */
+        }
+
+
+
+        h1 {
+
+
+
+            padding: 15px;
+
+            opacity: 1.0;
+
+
+
+
+
+        }
+
+
+
+        p {
+
+
+
+            padding: 15px;
+
+            opacity: 1.0;
+
+
+
+
+
+        }
+
+
+
+        .jumbotron {
+
+
+
+            background-image: url("./assets/familypic1.jpg") no-repeat center center fixed;
+
+            border: red;
+
+            opacity: ;
+
+            margin: 15px;
+
+        }
+
+
+
+        .header {
+
+            background-color: #9933cc;
+
+            color: #ffffff;
+
+            padding: 10px;
+
+            opacity: 0.0;
+
+        }
+
+
+
+        .button.hover {
+
+            color: #4aaaa5;
+
+        }
+
+        .menu ul {
+
+            list-style-type: none;
+
+            margin: 0;
+
+            padding: 0;
+
+            opacity: 0.0;
+
+        }
+
+
+
+
+
+        .menu li {
+
+            padding: 8px;
+
+            margin-bottom: 7px;
+
+            background-color: #33b5e5;
+
+            color: #ffffff;
+
+            opacity: 0.2;
+
+            /* opacity: 0.0; */
+        }
+
+
+
+        .nav-link:hover {
+
+            background-color: #0099cc;
+
+            color: #777777;
+
+            font-size: 24px;
+
+            font-weight: bold;
+
+            opacity: 0.5;
+
+        }
+
+
+        .headshot {
+
+            width: 75%;
+            height: 75%;
+            padding: 10px;
+            transform: rotate(180deg);
+            margin: 10%;
+
+
+        }
+
+        /* trying to figure out flip of pictures, did not work      
+        #picflip {
+
+width: 75%;
+height: 75%;
+padding: 10px;
+transform: rotate(270deg);
+margin: 10%;
+clear: both;
+
+
+
+} */
+
+        img:hover {
+
+            width: 75%;
+            height: 75%;
+            padding: 3%;
+            transform: rotate(180deg);
+            opacity: 0.8;
+
+
+        }
+
+
+
+
+        /* For desktop: this isn't doing anything. got from w3schools*/
+
+        /* .col-1 {
+            width: 8.33%;
+        }
+
+        .col-2 {
+            width: 16.66%;
+        }
+
+        .col-3 {
+            width: 25%;
+        }
+
+        .col-4 {
+            width: 33.33%;
+        }
+
+        .col-5 {
+            width: 41.66%;
+        }
+
+        .col-6 {
+            width: 50%;
+        }
+
+        .col-7 {
+            width: 58.33%;
+        }
+
+        .col-8 {
+            width: 66.66%;
+        }
+
+        .col-9 {
+            width: 75%;
+        }
+
+        .col-10 {
+            width: 83.33%;
+        }
+
+        .col-11 {
+            width: 91.66%;
+        }
+
+        .col-12 {
+            width: 100%;
+        }
+
+        opacity: 0.0;
+        */
+
+        /* @media only screen and (max-width: 768px) {
+
+    /* For mobile phones: */
+
+        /*  [class*="col-lg-6 col-md-6 col-sm-12"] {
+
+            width: 100%;
+
+        } 
+
+        
+        } */
+    </style>
+
+</head>
+
+
+
+<body>
+
+    <!--/* Navbar */-->
+
+
+
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+
+        <a class="navbar-brand" href="#"></a>
+
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+            aria-expanded="false" aria-label="Toggle navigation">
+
+            <span class="navbar-toggler-icon"></span>
+
+        </button>
+
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+
+            <ul class="navbar-nav mr-auto">
+
+                <li class="nav-item active">
+
+                    <a class="nav-link" href="#">About
+                        <span class="sr-only">(current)</span>
+                    </a>
+
+                </li>
+
+
+
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+
+                    <ul class="navbar-nav mr-auto">
+
+                        <li class="nav-item active">
+
+                            <a class="nav-link" href="#">Portfolio
+                                <span class="sr-only">(current)</span>
+                            </a>
+
+                        </li>
+
+
+
+                        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+
+                            <ul class="navbar-nav mr-auto">
+
+                                <li class="nav-item active">
+
+                                    <a class="nav-link" href="#">Contact
+                                        <span class="sr-only">(current)</span>
+                                    </a>
+
+                                </li>
+
+
+
+                                </form>
+
+
+
+
+
+                                <!--<li class="nav-item">
+
+        <a class="nav-link" href="#">Link</a>
+
+      </li>
+
+      <!--<li class="nav-item dropdown">
+
+        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+
+          Dropdown
+
+        </a>
+
+        <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+
+          <a class="dropdown-item" href="#">Action</a>
+
+          <a class="dropdown-item" href="#">Another action</a>
+
+          <div class="dropdown-divider"></div>
+
+          <a class="dropdown-item" href="#">Something else here</a>
+
+        </div>
+
+      </li>
+
+      <li class="nav-item">
+
+        <a class="nav-link disabled" href="#">Disabled</a>
+
+      </li>
+
+    </ul>
+
+    <form class="form-inline my-2 my-lg-0">
+
+      <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
+
+      <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
+
+    </form>
+
+  </div> -->
+
+    </nav>
+
+    <div class="container">
+
+
+
+        <div class="row">
+
+            <div class="col-lg-5 col-md-5 col-sm-12">
+                <div class="row justify-content-md-center">
+
+                    <!-- <img class="headshot" src="./assets/familypic1.jpg" alt="Photo of Kevin Harty"> </img>-->
+
+
+                    <div class="jumbotron jumbotron-fluid">
+
+
+                        <h1 class="display-4">Kevin W. Harty</h1>
+
+                        <p class="lead"> I currently reside in Carlsbad, CA where I have lived for the past 7 years. When I have some free
+                            time, you'll find me spending it with my wife and 2 year-old daughter Campbell, hopefully outdoors
+                            or sneaking in a surf.
+
+                        </p>
+
+                        <p>
+                            <b>
+
+                                I'm excited about coding!
+
+                            </b>
+
+                        </p>
+
+                        <p>
+
+                            I've spent nearly 15 years in finance after getting my start on Wall Street, just before the financial crisis. Late nights
+                            (early mornings really) fumbling with outdated programs and SQL server was my trial-by-fire into
+                            the coding space. Since then, I've held a few different roles in sales focusing on management
+                            for the last 7 years. Building, training and empowering sales teams to succeed has been a very
+                            challenging and rewarding experience.
+
+                        </p>
+
+                        <p>
+
+                            My goal is to enter into the sphere of the "creative" and exit the simply "competitive" world. I still love sales, I still
+                            love managing, and I am excited to leverage my expertise and knowledge in the managerial and
+                            financial realms to that end. I'll try to keep you posted as the adventure unfolds...
+
+                        </p>
+
+
+
+                        </p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-6 col-md-6 col-sm-12">
+
+                <div class="row justify-content-md-center">
+
+                    <div class="row">
+                        <img class="headshot" src="./assets/familypic1.jpg" alt="Photo of Kevin Harty"> </img>
+                    </div>
+                    <div class="row">
+                        <div id="picflip">
+                            <img class="headshot" src="./assets/baby1.JPG" alt="Photo of Kevin Harty"> </img>
+                        </div>
+                        <div class="row">
+                            <img class="headshot" src="./assets/messy.JPG" alt="Photo of Kevin Harty"> </img>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </div>
+
+    <!--<div class="row">
+
+    <div class="col-sm-4">
+
+      <h3>Column 1</h3>
+
+      <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit...</p>
+
+      <p>Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris...</p>
+
+    </div>
+
+    <div class="col-sm-4">
+
+      <h3>Column 2</h3>
+
+      <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit...</p>
+
+      <p>Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris...</p>
+
+    </div>
+
+    <div class="col-sm-4">
+
+      <h3>Column 3</h3>       
+
+      <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit...</p>
+
+      <p>Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris...</p>
+
+    </div> -->
+
+
+    <!--non sticky-- <footer>&copy; Copyright 2018 Kevin Harty</footer>-->
+    <!--sticky-->
+    <div class="navbar navbar-default navbar-fixed-bottom">
+        <div class="container">
+            <p class="navbar-text center">© Copyright 2018 Kevin W. Harty
+                <!--   <a href="http://tinyurl.com/tbvalid" target="_blank" >HTML 5 Validation</a>-->
+            </p>
+            <!--
+          <a href="http://youtu.be/zJahlKPCL9g" class="navbar-btn btn-danger btn pull-right">
+          <span class="glyphicon glyphicon-star"></span>  Subscribe on YouTube</a>-->
+        </div>
+    </div>
+
+
+    </div>
+
+    </div>
